@@ -362,88 +362,6 @@ body {
           align-items: center;
 }
 
-.navigation-list-link {
-  position: relative;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.142;
-  letter-spacing: 0.02em;
-  color: #212121;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  padding: 31px 0;
-}
-
-.navigation-list-link:hover, .navigation-list-link:focus {
-  color: #2196f3;
-}
-
-.navigation-list-link::after {
-  content: '';
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  background-color: #2196f3;
-  -webkit-transition: width, cubic-bezier(0.4, 0, 0.2, 1) 0.25s;
-  transition: width, cubic-bezier(0.4, 0, 0.2, 1) 0.25s;
-  opacity: 0;
-}
-
-.navigation-list-link:hover::after, .navigation-list-link:focus::after {
-  color: #2196f3;
-}
-
-/* Display flax */
-.navigation {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  padding-top: 24px;
-  padding-bottom: 25px;
-}
-
-.navigation-list {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  margin-right: 275px;
-  margin-left: 93px;
-}
-
-.navigation-list li:nth-child(2) {
-  margin-left: 50px;
-  margin-right: 50px;
-  padding: 0;
-}
-
-.navigation-logo-color {
-  color: #212121;
-}
-
-.current {
-  color: #2196f3;
-}
-
-.current::after {
-  content: '';
-  position: absolute;
-  bottom: 0px;
-  left: 0;
-  width: 100%;
-  height: 4px;
-  opacity: 1;
-  background-color: #2196f3;
-  border-radius: 2px;
-}
-
 .logo {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -456,56 +374,41 @@ body {
   color: #2196f3;
 }
 
-/* ховер тел почта иконки */
-.communication {
+.navigation-logo-color {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  color: #212121;
+}
+
+.navigation-list {
+  display: none;
+}
+
+.communication {
+  display: none;
+}
+
+.header-menu {
+  position: absolute;
+  left: 340px;
+  right: 23px;
+  top: 36px;
+  bottom: 22px;
+}
+
+.navigation {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-}
-
-.communication li a .communication-icon {
-  margin-right: 10px;
-  fill: #757575;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-}
-
-.communication li:nth-child(2) {
-  padding-left: 30px;
-}
-
-.communication li:hover a,
-.communication li a:focus {
-  color: #2196f3;
-}
-
-.communication li:hover a .communication-icon,
-.communication li a:focus .communication-icon {
-  fill: #2196f3;
-}
-
-.main-mail,
-.main-tel {
-  text-decoration: none;
-  color: #757575;
-  -webkit-transition: 0.3s;
-  transition: 0.3s;
-  font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.02em;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  font-weight: 500;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 .footer {

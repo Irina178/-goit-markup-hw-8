@@ -162,5 +162,8 @@
 <path fill="#212121" style="fill: var(--color4, #212121)" d="M17.164 5.071l-0.258 1.036c0.071 0.018 1.738 0.452 1.738 2.149h1.067c-0-2.017-1.666-2.965-2.547-3.185z"></path>
 <path fill="#212121" style="fill: var(--color4, #212121)" d="M19.711 9.322h-1.067v1.067h1.067v-1.067z"></path>
 </symbol>
+<symbol id="menu" viewBox="0 0 32 32">
+<path   clip-rule="evenodd" d="M0 2.667V0h24v2.667H0zm0 6.666h24V6.667H0v2.666zM0 16h24v-2.667H0V16z"></path>
+</symbol>
 </defs>
 </svg>
