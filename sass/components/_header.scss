@@ -25,9 +25,23 @@
 }
 .navigation-list {
   display: none;
+  @media screen and (min-width: 768px) {
+    display: block;
+  margin-right: 275px;
+  margin-left: 93px;
+  & li:nth-child(2) {
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 0;
+  }
+}
+  }
 }
 .communication {
   display: none;
+  @media screen and (min-width: 768px) {
+    display: block;
+  }
 }
 .header-menu {
   position: absolute;
@@ -35,6 +49,9 @@
   top: 36px;
   bottom: 22px;
   color: $text-color;
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
 }
 .navigation {
   display: flex;

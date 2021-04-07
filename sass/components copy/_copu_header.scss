@@ -50,16 +50,6 @@
   padding-bottom: 25px;
 }
 
-.navigation-list {
-  display: flex;
-  margin-right: 275px;
-  margin-left: 93px;
-  & li:nth-child(2) {
-    margin-left: 50px;
-    margin-right: 50px;
-    padding: 0;
-  }
-}
 .navigation-logo-color {
   color: $text-color;
 }
