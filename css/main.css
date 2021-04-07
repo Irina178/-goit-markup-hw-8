@@ -335,7 +335,7 @@ body {
 
 @media screen and (min-width: 768px) {
   .container {
-    width: 768px;
+    width: 1200px;
   }
 }
 
@@ -392,9 +392,9 @@ body {
 .header-menu {
   position: absolute;
   left: 340px;
-  right: 23px;
   top: 36px;
   bottom: 22px;
+  color: #212121;
 }
 
 .navigation {
